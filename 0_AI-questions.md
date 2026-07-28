@@ -1,19 +1,12 @@
 # Artificial Intelligence: Sample Questions and Answers 
 
-Costa Rica
-
-[![GitHub](https://img.shields.io/badge/--181717?logo=github&logoColor=ffffff)](https://github.com/) [Cloud2BR OSS - Learning Hub](https://github.com/Cloud2BR-MSFTLearningHub)
-
-Last updated: 2025-07-16
-
-----------
-
 > Describe Artificial Intelligence workloads and considerations
 
-> [!NOTE]
+> **Note**
+>
 > The questions and answers provided in this study guide are for practice purposes only and are not official practice questions. They are intended to help you prepare for the [AI-900 Microsoft certification exam](https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ai-900). For additional preparation materials and the most up-to-date information, please refer to the [official Microsoft documentation](https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/?practice-assessment-type=certification).
 
-<details>
+<details markdown="1">
 <summary><b>List of References </b> (Click to expand)</summary>
 
 - [Microsoft Certified: Azure AI Fundamentals](https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/) - Overview of the AI-900 certification, including skills measured and exam details.
@@ -22,7 +15,7 @@ Last updated: 2025-07-16
   
 </details>
 
-<details>
+<details markdown="1">
 <summary><b>List of questions/answers </b> (Click to expand)</summary>
 
 - [Q1: Matching AI Workloads with Scenarios](#q1-matching-ai-workloads-with-scenarios)
@@ -48,7 +41,8 @@ Last updated: 2025-07-16
 
 </details>
 
-> [!TIP]
+> **Tip**
+>
 > **Microsoft's Six Principles of Responsible AI:**
 
 | Principle | Description | Key Implementation |
@@ -60,7 +54,8 @@ Last updated: 2025-07-16
 | **Transparency** | AI systems should be understandable | Clear documentation, explainable decisions |
 | **Accountability** | People should be accountable for AI systems | Human oversight, governance frameworks |
 
-> [!TIP]
+> **Tip**
+>
 > **AI Workload Types and Use Cases:**
 
 | Workload Type | Description | Common Scenarios |
@@ -72,7 +67,8 @@ Last updated: 2025-07-16
 | **Anomaly Detection** | Identifying unusual patterns | Fraud detection, system monitoring |
 | **Conversational AI** | Interactive dialogue systems | Virtual assistants, customer service bots |
 
-> [!TIP]
+> **Tip**
+>
 > **Azure AI Services Categories:**
 
 | Category | Services | Primary Use Cases |
@@ -83,7 +79,8 @@ Last updated: 2025-07-16
 | **Decision** | Anomaly Detector, Content Moderator, Personalizer | Pattern detection, content filtering, recommendations |
 | **OpenAI** | GPT models, DALL-E, Codex | Generative AI, text generation, code completion |
 
-> [!TIP]
+> **Tip**
+>
 > **Machine Learning Workflow:**
 
 | Phase | Description | Key Activities |
@@ -94,7 +91,8 @@ Last updated: 2025-07-16
 | **4. Model Deployment** | Making model available | Publishing, scaling, monitoring |
 | **5. Model Monitoring** | Tracking model performance | Performance tracking, retraining, updates |
 
-> [!TIP]
+> **Tip**
+>
 > **Types of Machine Learning:**
 
 | Type | Description | Examples |
@@ -104,7 +102,8 @@ Last updated: 2025-07-16
 | **Reinforcement Learning** | Learning through trial and error | Game playing, robotics, autonomous systems |
 | **Semi-supervised Learning** | Combining labeled and unlabeled data | When labeled data is limited |
 
-> [!TIP]
+> **Tip**
+>
 > **Computer Vision Capabilities:**
 
 | Capability | Description | Azure Service |
@@ -115,7 +114,8 @@ Last updated: 2025-07-16
 | **Facial Recognition** | Identifying and verifying faces | Face API |
 | **Image Analysis** | Understanding image content | Computer Vision |
 
-> [!TIP]
+> **Tip**
+>
 > **Natural Language Processing Tasks:**
 
 | Task | Description | Azure Service |
@@ -127,7 +127,8 @@ Last updated: 2025-07-16
 | **Translation** | Converting between languages | Translator |
 | **Intent Recognition** | Understanding user intentions | LUIS |
 
-> [!TIP]
+> **Tip**
+>
 > **Business Benefits of AI Implementation:**
 
 | Benefit | Description | Example |
@@ -139,7 +140,8 @@ Last updated: 2025-07-16
 | **24/7 Availability** | Round-the-clock service | Virtual assistants |
 | **Scalability** | Handling increased workload | Auto-scaling AI services |
 
-> [!TIP]
+> **Tip**
+>
 > **AI Ethics and Bias Considerations:**
 
 | Consideration | Description | Mitigation Strategy |
@@ -150,7 +152,8 @@ Last updated: 2025-07-16
 | **Selection Bias** | Non-representative sample data | Careful data collection methods |
 | **Historical Bias** | Past data reflects past inequalities | Awareness and adjustment for historical context |
 
-> [!TIP]
+> **Tip**
+>
 > **Azure Machine Learning Studio Components:**
 
 | Component | Purpose | Use Case |
@@ -162,7 +165,8 @@ Last updated: 2025-07-16
 | **Models** | Model registration and management | Model lifecycle management |
 | **Endpoints** | Model deployment and serving | Production model hosting |
 
-> [!TIP]
+> **Tip**
+>
 > **Common AI Performance Metrics:**
 
 | Metric Type | Metrics | Use Case |
@@ -173,7 +177,8 @@ Last updated: 2025-07-16
 | **Computer Vision** | mAP, IoU, Precision, Recall | Object detection |
 | **NLP** | BLEU, ROUGE, Perplexity | Translation quality |
 
-> [!TIP]
+> **Tip**
+>
 > **Data Privacy and Compliance:**
 
 | Regulation | Description | Key Requirements |
@@ -183,7 +188,8 @@ Last updated: 2025-07-16
 | **HIPAA** | Healthcare data protection | Data encryption, access controls, audit trails |
 | **SOX** | Financial data governance | Data integrity, retention policies |
 
-> [!TIP]
+> **Tip**
+>
 > **AI Development Best Practices:**
 
 | Practice | Description | Implementation |
@@ -195,7 +201,8 @@ Last updated: 2025-07-16
 | **Documentation** | Document decisions and processes | Clear project documentation |
 | **Testing** | Comprehensive testing strategies | Unit tests, integration tests, performance tests |
 
-> [!TIP]
+> **Tip**
+>
 > **Cognitive Load and User Experience:**
 
 | Principle | Description | Application |
@@ -206,7 +213,8 @@ Last updated: 2025-07-16
 | **Consistency** | Maintain consistent behavior | Standardized interactions across features |
 | **Accessibility** | Design for all users | Screen reader support, keyboard navigation |
 
-> [!TIP]
+> **Tip**
+>
 > **AI Project Lifecycle Phases:** It depends on how complex the use case is, but let's consider a complex scenario, it might take:
 
 | Phase | Duration | Key Deliverables |
@@ -218,7 +226,8 @@ Last updated: 2025-07-16
 | **Evaluation** | 1-2 weeks | Model validation, business impact assessment |
 | **Deployment** | 2-4 weeks | Production deployment, monitoring setup |
 
-> [!TIP]
+> **Tip**
+>
 > **Common AI Implementation Challenges:**
 
 | Challenge | Description | Solution |
@@ -524,10 +533,3 @@ Last updated: 2025-07-16
 - [ ] B. Avoid disclosing the use of AI-based algorithms for automated decision making. `This is incorrect because transparency is a key principle of responsible AI, and disclosing the use of AI is important for building trust.`
 - [x] C. Implement a process of AI model validation as part of the software review process. `This is the correct answer because validating AI models ensures they meet ethical and performance standards.`
 - [x] D. Establish a risk governance committee that includes members of the legal team, members of the risk management team, and a privacy officer. `This is the correct answer because having a risk governance committee ensures that AI practices are monitored and comply with legal and ethical standards.`
-
-<!-- START BADGE -->
-<div align="center">
-  <img src="https://img.shields.io/badge/Total%20views-1336-limegreen" alt="Total views">
-  <p>Refresh Date: 2025-08-05</p>
-</div>
-<!-- END BADGE -->

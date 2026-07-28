@@ -1,19 +1,12 @@
 # Computer Vision: Sample Questions and Answers
 
-Costa Rica
-
-[![GitHub](https://img.shields.io/badge/--181717?logo=github&logoColor=ffffff)](https://github.com/) [Cloud2BR OSS - Learning Hub](https://github.com/Cloud2BR-MSFTLearningHub)
-
-Last updated: 2025-08-05
-
-----------
-
 > Describe features of computer vision workloads on Azure
 
-> [!NOTE]
+> **Note**
+>
 > The questions and answers provided in this study guide are for practice purposes only and are not official practice questions. They are intended to help you prepare for the [AI-900 Microsoft certification exam](https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ai-900). For additional preparation materials and the most up-to-date information, please refer to the [official Microsoft documentation](https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/?practice-assessment-type=certification).
 
-<details>
+<details markdown="1">
 <summary><b>List of References</b> (Click to expand)</summary>
 
 - [Custom Vision documentation - Quickstarts, Tutorials, API Reference](https://learn.microsoft.com/en-us/azure/ai-services/custom-vision-service/)
@@ -22,7 +15,7 @@ Last updated: 2025-08-05
 
 </details>
 
-<details>
+<details markdown="1">
 <summary><b>List of questions/answers </b> (Click to expand)</summary>
 
 - [Q1: Identifying AI Services for Sentiment Analysis](#q1-identifying-ai-services-for-sentiment-analysis)
@@ -45,7 +38,8 @@ Last updated: 2025-08-05
 
 </details>
 
-> [!TIP]
+> **Tip**
+>
 > **Azure Computer Vision Services Overview:**
 
 | Service | Primary Purpose | Key Capabilities | Use Cases |
@@ -55,7 +49,8 @@ Last updated: 2025-08-05
 | **Face API** | Face detection and recognition | Face detection, verification, identification | Security systems, photo organization |
 | **Form Recognizer** | Document data extraction | OCR, key-value pairs, table extraction | Invoice processing, form automation |
 
-> [!TIP]
+> **Tip**
+>
 > **Computer Vision Capabilities:**
 
 | Capability | Description | Output Example |
@@ -67,7 +62,8 @@ Last updated: 2025-08-05
 | **Image Classification** | Categorize entire images | Single category per image |
 | **Face Detection** | Find faces in images | Face coordinates and attributes |
 
-> [!TIP]
+> **Tip**
+>
 > **Custom Vision Training Process:**
 
 | Step | Description | Key Considerations |
@@ -79,7 +75,8 @@ Last updated: 2025-08-05
 | **5. Evaluate Performance** | Review precision and recall | Threshold adjustment |
 | **6. Publish Model** | Deploy for prediction | API endpoint creation |
 
-> [!TIP]
+> **Tip**
+>
 > **OCR and Text Extraction:**
 
 | Feature | Computer Vision OCR | Form Recognizer |
@@ -90,7 +87,8 @@ Last updated: 2025-08-05
 | **Languages** | 70+ languages | 70+ languages |
 | **Use Cases** | Street signs, handwritten notes | Invoices, receipts, forms |
 
-> [!TIP]
+> **Tip**
+>
 > **Image Classification vs Object Detection:**
 
 | Aspect | Image Classification | Object Detection |
@@ -101,7 +99,8 @@ Last updated: 2025-08-05
 | **Use Cases** | Content filtering, photo organization | Security monitoring, inventory tracking |
 | **Azure Service** | Custom Vision (Classification) | Custom Vision (Object Detection) |
 
-> [!TIP]
+> **Tip**
+>
 > **Computer Vision Tasks and Techniques:**
 
 | Task | Description | Technical Approach |
@@ -113,7 +112,8 @@ Last updated: 2025-08-05
 | **Face Recognition** | Identify specific individuals | Feature extraction and matching |
 | **Optical Character Recognition** | Convert images to text | Text detection and recognition |
 
-> [!TIP]
+> **Tip**
+>
 > **Azure Form Recognizer Models:**
 
 | Model Type | Purpose | Key Features |
@@ -125,7 +125,8 @@ Last updated: 2025-08-05
 | **Custom Model** | Domain-specific forms | Train on your specific documents |
 | **Layout Model** | Extract structure | Tables, text, selection marks |
 
-> [!TIP]
+> **Tip**
+>
 > **Face API Capabilities:**
 
 | Operation | Purpose | Use Case |
@@ -136,7 +137,8 @@ Last updated: 2025-08-05
 | **Group** | Cluster similar faces | Photo organization |
 | **Find Similar** | Find matching faces | Duplicate detection |
 
-> [!TIP]
+> **Tip**
+>
 > **Computer Vision Performance Metrics:**
 
 | Metric | Description | When to Use |
@@ -148,7 +150,8 @@ Last updated: 2025-08-05
 | **mAP** | Mean Average Precision | Object detection evaluation |
 | **IoU** | Intersection over Union | Object localization accuracy |
 
-> [!TIP]
+> **Tip**
+>
 > **Image Preprocessing Best Practices:**
 
 | Technique | Purpose | Implementation |
@@ -159,7 +162,8 @@ Last updated: 2025-08-05
 | **Noise Reduction** | Improve image quality | Gaussian blur, median filter |
 | **Contrast Enhancement** | Improve visibility | Histogram equalization |
 
-> [!TIP]
+> **Tip**
+>
 > **Azure Computer Vision Pricing Tiers:**
 
 | Tier | Features | Best For |
@@ -169,7 +173,8 @@ Last updated: 2025-08-05
 | **Custom Vision Free** | Limited projects and images | Learning and prototyping |
 | **Custom Vision Standard** | Unlimited projects | Production custom models |
 
-> [!TIP]
+> **Tip**
+>
 > **Common Computer Vision Challenges:**
 
 | Challenge | Description | Solution |
@@ -180,7 +185,8 @@ Last updated: 2025-08-05
 | **Lighting Conditions** | Varying illumination | Normalize lighting, diverse training data |
 | **Background Clutter** | Busy backgrounds | Focus on object features, segmentation |
 
-> [!TIP]
+> **Tip**
+>
 > **Real-World Computer Vision Applications:**
 
 | Industry | Application | Azure Service |
@@ -192,7 +198,8 @@ Last updated: 2025-08-05
 | **Automotive** | Autonomous driving, parking | Computer Vision, Custom Vision |
 | **Agriculture** | Crop monitoring, pest detection | Custom Vision |
 
-> [!TIP]
+> **Tip**
+>
 > **API Response Formats:**
 
 | Service | Response Type | Key Fields |
@@ -202,7 +209,8 @@ Last updated: 2025-08-05
 | **Face API** | JSON | faceId, faceRectangle, faceAttributes |
 | **Form Recognizer** | JSON | pages, tables, keyValuePairs |
 
-> [!TIP]
+> **Tip**
+>
 > **Integration Patterns:**
 
 | Pattern | Description | Benefits |
@@ -213,7 +221,8 @@ Last updated: 2025-08-05
 | **Power Platform** | Citizen developer tools | Business user friendly |
 | **Azure Functions** | Serverless processing | Event-driven, scalable |
 
-> [!TIP]
+> **Tip**
+>
 > **Security and Compliance:**
 
 | Aspect | Implementation | Benefit |
@@ -337,7 +346,8 @@ Last updated: 2025-08-05
 - [ ] C. Computer Vision `This is incorrect because while Computer Vision can analyze images, it is not specifically designed for custom object identification.`
 - [x] D. Custom Vision `This is the correct answer because Custom Vision allows you to train a custom model to identify specific objects, such as fruits and vegetables, in images.`
 
-> [!TIP]
+> **Tip**
+>
 > Custom Model = Custom Vision
 
 ## Q12: Identifying AI Services for Document Processing
@@ -401,10 +411,3 @@ Last updated: 2025-08-05
 - [ ] B. Object detection `This is incorrect because object detection involves identifying and locating objects within an image, often using bounding boxes, not labeling individual pixels.`
 - [ ] C. Optical character recognition (OCR) `This is incorrect because OCR involves recognizing and extracting text from images, not labeling individual pixels.`
 - [x] D. Semantic segmentation `This is the correct answer because semantic segmentation involves classifying each pixel in an image into a category, such as car, road, or pedestrian.`
-
-<!-- START BADGE -->
-<div align="center">
-  <img src="https://img.shields.io/badge/Total%20views-1336-limegreen" alt="Total views">
-  <p>Refresh Date: 2025-08-05</p>
-</div>
-<!-- END BADGE -->

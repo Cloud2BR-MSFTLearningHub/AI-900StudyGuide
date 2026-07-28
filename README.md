@@ -1,16 +1,9 @@
 # Study Guide: Azure AI Fundamentals (AI-900)
 
-Costa Rica
-
-[![GitHub](https://img.shields.io/badge/--181717?logo=github&logoColor=ffffff)](https://github.com/) [Cloud2BR OSS - Learning Hub](https://github.com/Cloud2BR-MSFTLearningHub)
-
-Last updated: 2025-07-22
-
-----------
-
 > A landing zone is a general `cloud framework that sets up the core structure for all workloads`. Each use case (like an app, data pipeline, or API) then builds on top of this framework, using the `same environments (Dev → Test → UAT → Prod) and CI/CD pipelines to move code safely into production.` It’s general by design, but `applied per use case.`
 
-> [!NOTE]
+> **Note**
+>
 > The questions and answers provided in this study guide are for practice purposes only and are not official practice questions. They are intended to help you prepare for the [AI-900 Microsoft certification exam](https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ai-900). For additional preparation materials and the most up-to-date information, please refer to the [official Microsoft documentation](https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/?practice-assessment-type=certification). Read all here [Study guide for Exam AI-900: Microsoft Azure AI Fundamentals](https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ai-900)
 
 
@@ -34,7 +27,7 @@ flowchart LR
     D:::step
 ```
 
-<details>
+<details markdown="1">
 <summary><b> More details about it here </b> (Click to expand)</summary>
   
 > - We all `start with scripting`, no matter the language, it’s the first step. `Simple/complex instructions, written line by line`, to get something done
@@ -46,9 +39,9 @@ flowchart LR
 
 ## Content
 
-- [Artificial Intelligence: Sample Questions and Answers](./0_AI-questions.md)
-- [Machine Learning: Sample Questions and Answers](./1_ML-questions.md)
-- [Computer Vision: Sample Questions and Answers](./2_CV-questions.md)
+- [Artificial Intelligence: Sample Questions and Answers](https://cloud2br-msftlearninghub.github.io/AI-900StudyGuide/artificial-intelligence/)
+- [Machine Learning: Sample Questions and Answers](https://cloud2br-msftlearninghub.github.io/AI-900StudyGuide/machine-learning/)
+- [Computer Vision: Sample Questions and Answers](https://cloud2br-msftlearninghub.github.io/AI-900StudyGuide/computer-vision/)
 
 ## Skills measured
 
@@ -58,20 +51,15 @@ flowchart LR
 - Describe features of Natural Language Processing (NLP) workloads on Azure
 - Describe features of generative AI workloads on Azure
 
-> [!TIP]
+> **Tip**
+>
 > Check out:
-> - [Certification poster v2026](/docs/Certification-Poster_en-us-2026.pdf)
-> - [Certification poster v2025](/docs/Certification-Poster-en-us-2025.pdf)
+>
+> - [Certification poster v2026](Certification-Poster_en-us-2026.pdf)
+> - [Certification poster v2025](Certification-Poster-en-us-2025.pdf)
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/1a24a5f6-51d1-497c-8065-e9a8449145d2" alt="Centered Image" style="border: 2px solid #4CAF50; border-radius: 5px; padding: 5px; width: 200px;"/>
 </div>
 
 Badge from [Credly](https://www.credly.com/org/microsoft-certification/badge/microsoft-certified-azure-ai-fundamentals)
-
-<!-- START BADGE -->
-<div align="center">
-  <img src="https://img.shields.io/badge/Total%20views-1336-limegreen" alt="Total views">
-  <p>Refresh Date: 2025-08-05</p>
-</div>
-<!-- END BADGE -->

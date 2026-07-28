@@ -1,20 +1,13 @@
 # Machine Learning: Sample Questions and Answers
 
-Costa Rica
-
-[![GitHub](https://img.shields.io/badge/--181717?logo=github&logoColor=ffffff)](https://github.com/) [Cloud2BR OSS - Learning Hub](https://github.com/Cloud2BR-MSFTLearningHub)
-
-Last updated: 2025-07-16
-
-----------
-
 >  Describe fundamental principles of machine learning on Azure
 
-> [!NOTE]
+> **Note**
+>
 > The questions and answers provided in this study guide are for practice purposes only and are not official practice questions. They are intended to help you prepare for the [AI-900 Microsoft certification exam](https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ai-900). For additional preparation materials and the most up-to-date information, please refer to the [official Microsoft documentation](https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/?practice-assessment-type=certification).
 
 
-<details>
+<details markdown="1">
 <summary><b>List of References </b> (Click to expand)</summary>
 
 - [What is a confusion matrix?](https://www.nomidl.com/machine-learning/what-is-a-confusion-matrix/)
@@ -29,7 +22,7 @@ Last updated: 2025-07-16
 
 </details>
 
-<details>
+<details markdown="1">
 <summary><b>List of questions/answers </b> (Click to expand)</summary>
    
 - [Q1: Selecting the Appropriate Module in Azure Machine Learning Designer](#q1-selecting-the-appropriate-module-in-azure-machine-learning-designer)
@@ -69,7 +62,8 @@ Last updated: 2025-07-16
 </details>
 
 
-> [!TIP]
+> **Tip**
+>
 > **Core Machine Learning Types:**
 
 | Type | Description | Use Cases | Azure Services |
@@ -78,7 +72,8 @@ Last updated: 2025-07-16
 | **Unsupervised Learning** | Finding patterns in unlabeled data | Clustering, anomaly detection | Azure ML, Cognitive Services |
 | **Reinforcement Learning** | Learning through trial and error | Game AI, robotics | Azure ML, Cognitive Services |
 
-> [!TIP]
+> **Tip**
+>
 > **Azure Machine Learning Studio Components:**
 
 | Component | Purpose | Key Features |
@@ -91,7 +86,8 @@ Last updated: 2025-07-16
 | **Models** | Model registry | Version management, deployment |
 | **Endpoints** | Model deployment | Real-time and batch inference |
 
-> [!TIP]
+> **Tip**
+>
 > **Model Evaluation Metrics:**
 
 | Model Type | Primary Metrics | When to Use |
@@ -100,7 +96,8 @@ Last updated: 2025-07-16
 | **Regression** | MAE, MSE, RMSE, R-squared | Price prediction, forecasting |
 | **Clustering** | Silhouette Score, Inertia | Customer segmentation, data exploration |
 
-> [!TIP]
+> **Tip**
+>
 > **Data Preparation Best Practices:**
 
 | Process | Description | Implementation |
@@ -110,7 +107,8 @@ Last updated: 2025-07-16
 | **Data Splitting** | Divide data for training/testing | 70-30 or 80-20 split ratios |
 | **Feature Selection** | Choose relevant features | Correlation analysis, domain knowledge |
 
-> [!TIP]
+> **Tip**
+>
 > **Azure ML Designer Modules:**
 
 | Module Category | Key Modules | Purpose |
@@ -120,7 +118,8 @@ Last updated: 2025-07-16
 | **Machine Learning** | Train Model, Score Model | Build and evaluate models |
 | **Model Evaluation** | Evaluate Model, Cross Validate | Assess model performance |
 
-> [!TIP]
+> **Tip**
+>
 > **Model Deployment Options:**
 
 | Deployment Type | Use Case | Azure Service |
@@ -129,7 +128,8 @@ Last updated: 2025-07-16
 | **Batch Inference** | Bulk data processing | Azure Machine Learning Compute |
 | **Edge Deployment** | IoT and offline scenarios | Azure IoT Edge |
 
-> [!TIP]
+> **Tip**
+>
 > **Common ML Algorithms and Use Cases:**
 
 | Algorithm | Type | Best For | Example |
@@ -141,7 +141,8 @@ Last updated: 2025-07-16
 | **K-Means** | Clustering | Customer segmentation | Market analysis |
 | **Neural Networks** | Both | Complex patterns | Image recognition |
 
-> [!TIP]
+> **Tip**
+>
 > **Responsible AI in Machine Learning:**
 
 | Principle | Implementation | Azure Tools |
@@ -153,7 +154,8 @@ Last updated: 2025-07-16
 | **Privacy** | Protect sensitive data | Differential privacy |
 | **Accountability** | Human oversight | Audit trails |
 
-> [!TIP]
+> **Tip**
+>
 > **Feature Engineering Techniques:**
 
 | Technique | Description | When to Use |
@@ -164,7 +166,8 @@ Last updated: 2025-07-16
 | **Feature Crossing** | Combine multiple features | Capture interactions |
 | **Polynomial Features** | Create higher-order terms | Non-linear relationships |
 
-> [!TIP]
+> **Tip**
+>
 > **Model Training Best Practices:**
 
 | Practice | Description | Benefit |
@@ -175,7 +178,8 @@ Last updated: 2025-07-16
 | **Ensemble Methods** | Combine multiple models | Improved accuracy |
 | **Regularization** | Add penalty for complexity | Reduce overfitting |
 
-> [!TIP]
+> **Tip**
+>
 > **Understanding Overfitting vs Underfitting:**
 
 | Concept | Signs | Solutions |
@@ -184,7 +188,8 @@ Last updated: 2025-07-16
 | **Underfitting** | Low training and validation accuracy | More complex model, better features |
 | **Good Fit** | Similar training and validation accuracy | Balanced model complexity |
 
-> [!TIP]
+> **Tip**
+>
 > **Azure ML Workspace Tiers:**
 
 | Tier | Features | Best For |
@@ -192,7 +197,8 @@ Last updated: 2025-07-16
 | **Basic** | Core ML capabilities | Development, learning |
 | **Enterprise** | Advanced features, Designer, AutoML UI | Production, teams |
 
-> [!TIP]
+> **Tip**
+>
 > **Data Types and ML Applications:**
 
 | Data Type | ML Applications | Example Scenarios |
@@ -661,10 +667,3 @@ Which three fields should you use as features? Each correct answer presents a co
 3. A validation set ensures that all training data has been utilized in training the model.
    - [ ] True
    - [x] False `This is correct because a validation set is separate from the training data and is not used to verify the usage of all training data.`
-
-<!-- START BADGE -->
-<div align="center">
-  <img src="https://img.shields.io/badge/Total%20views-1336-limegreen" alt="Total views">
-  <p>Refresh Date: 2025-08-05</p>
-</div>
-<!-- END BADGE -->
