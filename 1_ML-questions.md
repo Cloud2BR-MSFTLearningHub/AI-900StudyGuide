@@ -526,9 +526,15 @@ Select the answer choice that completes each statement based on the information 
 
 From [What is a confusion matrix?](https://www.nomidl.com/machine-learning/what-is-a-confusion-matrix/)
 
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/037a8dcb-9c68-49ba-b070-e95fc5dea743" alt="Centered Image" style="border: 2px solid #4CAF50; border-radius: 5px; padding: 5px; width: 500px;"/>
-</div>
+```mermaid
+flowchart TB
+      subgraph "Confusion matrix"
+            TN[True Negative: 950]
+            FP[False Positive: 30]
+            FN[False Negative: 20]
+            TP[True Positive: 14,000]
+      end
+```
 
 ## Q24: Splitting Data for Machine Learning
 
