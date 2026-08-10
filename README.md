@@ -55,8 +55,8 @@ flowchart LR
 >
 > Check out:
 >
-> - [Certification poster v2026](Certification-Poster_en-us-2026.pdf)
-> - [Certification poster v2025](Certification-Poster-en-us-2025.pdf)
+> - [Certification poster v2026](https://github.com/Cloud2BR-MSFTLearningHub/AI-900StudyGuide/blob/main/docs/Certification-Poster_en-us-2026.pdf)
+> - [Certification poster v2025](https://github.com/Cloud2BR-MSFTLearningHub/AI-900StudyGuide/blob/main/docs/Certification-Poster-en-us-2025.pdf)
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/1a24a5f6-51d1-497c-8065-e9a8449145d2" alt="Centered Image" style="border: 2px solid #4CAF50; border-radius: 5px; padding: 5px; width: 200px;"/>
